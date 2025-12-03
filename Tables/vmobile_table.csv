@@ -1,0 +1,110 @@
+uniqueid,Location,Cell_Number,SIM_Activation_Date,First_Name,Last_Name,Birthday
+1,Johannesburg,27701302724,10 01 2024,Sibonelo,Jiyane,31 05 1965
+2,Pretoria,27702088773,15 11 2024,Gugulethu,Dimbani,17 11 1976
+3,West Rand,27702970958,16 04 2025,Nokulunga,Mhlungu,11 03 1977
+4,Port Elizabeth,27703320064,10 04 2024,Owethu,Khanyile,11 07 1997
+5,Cape Town,27704131178,22 09 2024,Lindsay,Blair,31 01 1976
+6,Port Elizabeth,27704753382,06 08 2024,Nomathalente,Shoba,06 09 1962
+7,Durban,27705752990,02 08 2023,Andrea,Calderon,06 09 1981
+8,Pretoria,27706327368,24 06 2024,Henry,Smith,01 02 1949
+9,Witbank,27706833765,14 01 2025,Michael,Galloway,29 06 1994
+10,Port Elizabeth,27707347477,24 08 2023,David,Nielsen,14 12 1944
+11,Pietermaritzburg,27707848987,21 10 2024,Nicole,Ward,04 09 1952
+12,Port Elizabeth,27709050860,01 12 2024,Andile,Mangethe,30 07 2002
+13,Johannesburg,27709367729,02 02 2024,Carlos,Johnson,28 01 1962
+14,Cape Town,27710091970,09 05 2024,Londiwe,Mabhoko,01 12 1940
+15,Benoni,27711214656,10 09 2023,Lungile,Shozi,09 11 1970
+16,Polokwane,27711572067,04 10 2024,Mitchell,Clark,04 10 1957
+17,Johannesburg,27711810165,23 08 2024,Thando,Vilakazi,01 07 1962
+18,Bloemfontein,27712305098,29 05 2024,William,Wilson,10 10 1941
+19,Ekurhuleni,27713173581,13 05 2025,Julia,Howard,06 03 1944
+20,Nelspruit,27714005115,29 03 2024,Gugu,Gcaleka,10 05 1950
+21,Kimberley,27714271871,02 04 2025,Patrick,Ferrell,07 08 1975
+22,Rustenburg,27716808757,05 11 2023,Guy,Kelly,25 07 1973
+23,Soshanguve,27717893653,11 07 2024,Simphiwe,Nondlela,30 12 2002
+24,Durban,27718448667,28 10 2023,Michael,Cooper,04 08 1957
+25,Ekurhuleni,27719118275,01 11 2023,Nomthandazo,Mbuyise,01 04 1940
+26,Johannesburg,27719729993,28 08 2024,Hannah,Young,04 05 1983
+27,Bloemfontein,27723956054,05 08 2024,Thuthukile,Nyambose,03 09 1976
+28,Johannesburg,27724778385,20 08 2023,Gugulethu,Hlophe,08 02 1961
+29,Pretoria,27727400477,21 03 2025,Ruth,Griffiths,20 01 1990
+30,Pretoria,27729448431,04 08 2023,Bhekizizwe,Mbokazi,02 03 1998
+31,West Rand,27729675831,06 09 2024,Nomagugu,Nkomo,02 07 1990
+32,Cape Town,27729817935,26 04 2025,Victor,Watts,25 05 1992
+33,Cape Town,27730744349,31 05 2024,Joshua,Booth,25 03 1991
+34,Welkom,27732045020,27 03 2024,Mandlakhe,Gotsholo,30 07 1994
+35,Witbank,27732577687,25 06 2024,Musa,Jibela,26 11 2003
+36,Soshanguve,27733191788,01 06 2025,Musa,Nodlomo,20 10 1999
+37,Krugersdorp,27734011187,02 04 2025,Nobantu,Duze,27 07 1967
+38,Durban,27734762586,25 12 2024,Mandlakhe,Biyase,11 10 1970
+39,Rustenburg,27735515302,11 08 2023,Simphiwe,Ludonga,13 01 1943
+40,Pretoria,27736548736,23 07 2023,Sandra,Harper,23 09 1988
+41,West Rand,27736988792,24 05 2024,Hannah,Marquez,29 09 1966
+42,Johannesburg,27738031248,05 12 2023,Mandla,Gambu,03 08 1984
+43,Pretoria,27738452446,08 03 2025,Mthokozisi,Ximba,10 12 1998
+44,West Rand,27739126870,19 12 2024,Nancy,Baker,28 08 1973
+45,Cape Town,27739493210,05 01 2024,Gregory,Robinson,18 10 1997
+46,Durban,27740348711,25 09 2023,Olwethu,Mnomiya,25 05 1941
+47,Durban,27740837531,13 09 2023,Chelsea,Jackson,17 03 1989
+48,Durban,27743941564,21 01 2025,Sibonelo,Ntombela,08 05 1968
+49,Pretoria,27744810767,13 11 2024,Nomalanga,Ndima,22 08 2002
+50,Ekurhuleni,27745858892,02 07 2024,Nhlanhla,Mzizi,08 04 2006
+51,Pretoria,27746545449,26 05 2024,Gugu,Mthonti,06 09 1981
+52,Cape Town,27747009358,14 09 2024,Teresa,Hurst,25 03 1998
+53,Vereeniging,27748023717,13 06 2025,Sibusisiwe,Mazibuko,18 06 1943
+54,Johannesburg,27749758825,11 01 2025,Nokulunga,Gedeza,23 10 2000
+55,Pretoria,27750688826,30 09 2023,Thabisile,Gabhisa,08 09 2000
+56,Durban,27752176619,21 11 2024,Nonjabulo,Bayeni,01 07 2004
+57,Pretoria,27753154430,02 10 2023,Mark,Davies,22 05 1947
+58,Vereeniging,27754907568,27 09 2024,Bhekisisa,Sokhela,16 10 1977
+59,Johannesburg,27755830723,29 07 2024,Trevor,Campos,10 03 1998
+60,Newcastle,27756759873,06 10 2024,Mlungisi,Vundla,05 07 1958
+61,Ekurhuleni,27757293964,08 08 2023,Nobuhle,Mgilija,04 09 1952
+62,West Rand,27758159426,06 05 2024,Rachel,Hayes,17 06 1956
+63,Cape Town,27758744842,22 08 2024,Siphesihle,Mjwara,25 04 1988
+64,Ekurhuleni,27759277187,05 01 2024,Sihawukele,Makhanya,23 10 2005
+65,Vereeniging,27759568476,30 06 2024,Kendra,Galloway,18 10 1997
+66,Durban,27760905385,13 03 2025,Nathan,Harris,10 05 1950
+67,Cape Town,27761465695,06 10 2024,Gugulethu,Mahlase,21 08 1960
+68,Cape Town,27761704638,03 02 2024,Monica,Evans,27 01 1983
+69,Port Elizabeth,27763355406,15 01 2024,Heather,Thompson,17 03 1989
+70,Ekurhuleni,27764031374,07 06 2025,Lungile,Siyaya,20 11 1953
+71,Ekurhuleni,27765030894,05 06 2025,Jill,Miah,16 01 1981
+72,Durban,27766591547,18 09 2023,Thembisile,Lukhele,19 09 1943
+73,Johannesburg,27767639036,08 12 2024,Thalente,Galu,23 01 1993
+74,Ekurhuleni,27767973262,31 05 2024,Nonjabulo,Nhlanhlampofu,17 05 1968
+75,Port Elizabeth,27769640012,16 12 2024,Kirsty,May,02 06 1945
+76,Ekurhuleni,27770570082,10 09 2023,Nomusa,Hlomuka,29 02 2004
+77,Johannesburg,27770950073,06 03 2025,Georgia,Price,17 06 1956
+78,Cape Town,27771192228,09 01 2025,Mario,Smith,25 10 2002
+79,Cape Town,27771583203,29 10 2023,Musa,Sondisa,22 05 1999
+80,Johannesburg,27772909252,11 09 2024,Amahle,Cwalile,01 10 1947
+81,Vereeniging,27774230241,09 11 2024,Njabulo,Sikobi,26 07 1946
+82,Cape Town,27775448067,01 04 2024,Silondile,Guliwe,29 06 1990
+83,Ekurhuleni,27775957924,27 10 2023,Amanda,Martinez,27 06 1984
+84,East London,27776715116,01 01 2024,Siyabonga,Hlatshwayo,31 01 1980
+85,Ekurhuleni,27777008770,27 05 2025,Ashley,Bond,11 10 1945
+86,Ekurhuleni,27778478997,01 10 2024,Marcus,Morris,29 09 1968
+87,Krugersdorp,27779961344,31 05 2024,Langalibalele,Nyambose,22 11 1966
+88,Durban,27780470523,16 08 2023,Dean,Stevens,19 07 1991
+89,Johannesburg,27781311807,12 03 2025,Vincent,Read,28 09 1962
+90,Cape Town,27782561720,01 05 2024,Todd,Jones,08 05 1991
+91,Pretoria,27783253285,25 07 2023,Jacqueline,Sutton,13 06 1944
+92,Ekurhuleni,27785690836,28 05 2024,Bhekokwakhe,Mcwaye,06 02 1979
+93,Ekurhuleni,27786674547,10 03 2025,Mlungisi,Sokhela,06 04 1997
+94,Cape Town,27787961134,04 03 2024,Londisizwe,Gcwabe,04 11 1980
+95,Ekurhuleni,27788451269,17 04 2024,Amahle,Ndima,11 07 1966
+96,Ekurhuleni,27789810620,11 04 2024,Thabisile,Cebekhulu,23 03 1964
+97,East London,27790250774,08 06 2025,S'fiso,Ndawonde,03 02 1949
+98,Pretoria,27790732780,26 06 2024,Matthew,Davis,04 03 1946
+99,Cape Town,27790900159,01 08 2024,Julie,Marsden,08 10 1963
+100,Boksburg,27791923440,13 10 2024,Mandla,Dludlu,02 02 1998
+101,Johannesburg,27792348065,29 09 2024,Lucy,Wright,03 09 1994
+102,Durban,27793605906,07 11 2024,Zibuyile,Sithuli,21 04 2000
+103,Pretoria,27795246915,31 03 2025,Nozizwe,Lange,19 02 1954
+104,Cape Town,27795825108,05 08 2024,Jennifer,Lewis,25 07 1973
+105,Johannesburg,27796205527,12 02 2024,SimphiweyiNkosi,Msani,27 04 1978
+106,Cape Town,27796677912,09 12 2023,Allison,Obrien,20 03 2005
+107,Johannesburg,27797558478,04 09 2023,Randall,Rocha,25 10 1970
+108,Ekurhuleni,27798844055,26 10 2024,Mthokozisi,Sishiya,28 03 1977
+109,Pretoria,27799698904,26 10 2023,Jeffrey,Bright,07 04 1974

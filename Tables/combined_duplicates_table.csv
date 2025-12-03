@@ -1,0 +1,414 @@
+unique_id,cell_phone_number,first_name,last_name,date_of_birth,sim_activation_date,region,source_system_name,is_master_record
+1,0701302724,Sibonelo,Jiyane,1965-05-31,2024-01-10,Johannesburg,VMobile,1
+2,0702088773,Gugulethu,Dimbani,1976-11-17,2024-11-15,Pretoria,VMobile,1
+3,0702970958,Nokulunga,Mhlungu,1977-03-11,2025-04-16,West Rand,VMobile,1
+4,0703320064,Owethu,Khanyile,1997-07-11,2024-04-10,Port Elizabeth,VMobile,1
+5,0704131178,Lindsay,Blair,1976-01-31,2024-09-22,Cape Town,VMobile,1
+6,0704753382,Nomathalente,Shoba,1962-09-06,2024-08-06,Port Elizabeth,VMobile,1
+7,0705752990,Andrea,Calderon,1981-09-06,2023-08-02,Durban,VMobile,1
+8,0706327368,Henry,Smith,1949-02-01,2024-06-24,Pretoria,VMobile,1
+9,0706833765,Michael,Galloway,1994-06-29,2025-01-14,Witbank,VMobile,1
+10,0707347477,David,Nielsen,1944-12-14,2023-08-24,Port Elizabeth,VMobile,1
+11,0707848987,Nicole,Ward,1952-09-04,2024-10-21,Pietermaritzburg,VMobile,1
+12,0709050860,Andile,Mangethe,2002-07-30,2024-12-01,Port Elizabeth,VMobile,1
+13,0709367729,Carlos,Johnson,1962-01-28,2024-02-02,Johannesburg,VMobile,1
+14,0710091970,Londiwe,Mabhoko,1940-12-01,2024-05-09,Cape Town,VMobile,1
+15,0711214656,Lungile,Shozi,1970-11-09,2023-09-10,Benoni,VMobile,1
+16,0711572067,Mitchell,Clark,1957-10-04,2024-10-04,Polokwane,VMobile,1
+17,0711810165,Thando,Vilakazi,1962-07-01,2024-08-23,Johannesburg,VMobile,1
+18,0712305098,William,Wilson,1941-10-10,2024-05-29,Bloemfontein,VMobile,1
+19,0713173581,Julia,Howard,1944-03-06,2025-05-13,Ekurhuleni,VMobile,1
+20,0714005115,Gugu,Gcaleka,1950-05-10,2024-03-29,Nelspruit,VMobile,1
+21,0714271871,Patrick,Ferrell,1975-08-07,2025-04-02,Kimberley,VMobile,1
+22,0716808757,Guy,Kelly,1973-07-25,2023-11-05,Rustenburg,VMobile,1
+23,0717893653,Simphiwe,Nondlela,2002-12-30,2024-07-11,Soshanguve,VMobile,1
+24,0718448667,Michael,Cooper,1957-08-04,2023-10-28,Durban,VMobile,1
+25,0719118275,Nomthandazo,Mbuyise,1940-04-01,2023-11-01,Ekurhuleni,VMobile,1
+26,0719729993,Hannah,Young,1983-05-04,2024-08-28,Johannesburg,VMobile,1
+27,0723956054,Thuthukile,Nyambose,1976-09-03,2024-08-05,Bloemfontein,VMobile,1
+28,0724778385,Gugulethu,Hlophe,1961-02-08,2023-08-20,Johannesburg,VMobile,1
+29,0727400477,Ruth,Griffiths,1990-01-20,2025-03-21,Pretoria,VMobile,1
+30,0729448431,Bhekizizwe,Mbokazi,1998-03-02,2023-08-04,Pretoria,VMobile,1
+31,0729675831,Nomagugu,Nkomo,1990-07-02,2024-09-06,West Rand,VMobile,1
+32,0729817935,Victor,Watts,1992-05-25,2025-04-26,Cape Town,VMobile,1
+33,0730744349,Joshua,Booth,1991-03-25,2024-05-31,Cape Town,VMobile,1
+34,0732045020,Mandlakhe,Gotsholo,1994-07-30,2024-03-27,Welkom,VMobile,1
+35,0732577687,Musa,Jibela,2003-11-26,2024-06-25,Witbank,VMobile,1
+36,0733191788,Musa,Nodlomo,1999-10-20,2025-06-01,Soshanguve,VMobile,1
+37,0734011187,Nobantu,Duze,1967-07-27,2025-04-02,Krugersdorp,VMobile,1
+38,0734762586,Mandlakhe,Biyase,1970-10-11,2024-12-25,Durban,VMobile,1
+39,0735515302,Simphiwe,Ludonga,1943-01-13,2023-08-11,Rustenburg,VMobile,1
+40,0736548736,Sandra,Harper,1988-09-23,2023-07-23,Pretoria,VMobile,1
+41,0736988792,Hannah,Marquez,1966-09-29,2024-05-24,West Rand,VMobile,1
+42,0738031248,Mandla,Gambu,1984-08-03,2023-12-05,Johannesburg,VMobile,1
+43,0738452446,Mthokozisi,Ximba,1998-12-10,2025-03-08,Pretoria,VMobile,1
+44,0739126870,Nancy,Baker,1973-08-28,2024-12-19,West Rand,VMobile,1
+45,0739493210,Gregory,Robinson,1997-10-18,2024-01-05,Cape Town,VMobile,1
+46,0740348711,Olwethu,Mnomiya,1941-05-25,2023-09-25,Durban,VMobile,1
+47,0740837531,Chelsea,Jackson,1989-03-17,2023-09-13,Durban,VMobile,1
+48,0743941564,Sibonelo,Ntombela,1968-05-08,2025-01-21,Durban,VMobile,1
+49,0744810767,Nomalanga,Ndima,2002-08-22,2024-11-13,Pretoria,VMobile,1
+50,0745858892,Nhlanhla,Mzizi,2006-04-08,2024-07-02,Ekurhuleni,VMobile,1
+51,0746545449,Gugu,Mthonti,1981-09-06,2024-05-26,Pretoria,VMobile,1
+52,0747009358,Teresa,Hurst,1998-03-25,2024-09-14,Cape Town,VMobile,1
+53,0748023717,Sibusisiwe,Mazibuko,1943-06-18,2025-06-13,Vereeniging,VMobile,1
+54,0749758825,Nokulunga,Gedeza,2000-10-23,2025-01-11,Johannesburg,VMobile,1
+55,0750688826,Thabisile,Gabhisa,2000-09-08,2023-09-30,Pretoria,VMobile,1
+56,0752176619,Nonjabulo,Bayeni,2004-07-01,2024-11-21,Durban,VMobile,1
+57,0753154430,Mark,Davies,1947-05-22,2023-10-02,Pretoria,VMobile,1
+58,0754907568,Bhekisisa,Sokhela,1977-10-16,2024-09-27,Vereeniging,VMobile,1
+59,0755830723,Trevor,Campos,1998-03-10,2024-07-29,Johannesburg,VMobile,1
+60,0756759873,Mlungisi,Vundla,1958-07-05,2024-10-06,Newcastle,VMobile,1
+61,0757293964,Nobuhle,Mgilija,1952-09-04,2023-08-08,Ekurhuleni,VMobile,1
+62,0758159426,Rachel,Hayes,1956-06-17,2024-05-06,West Rand,VMobile,1
+63,0758744842,Siphesihle,Mjwara,1988-04-25,2024-08-22,Cape Town,VMobile,1
+64,0759277187,Sihawukele,Makhanya,2005-10-23,2024-01-05,Ekurhuleni,VMobile,1
+65,0759568476,Kendra,Galloway,1997-10-18,2024-06-30,Vereeniging,VMobile,1
+66,0760905385,Nathan,Harris,1950-05-10,2025-03-13,Durban,VMobile,1
+67,0761465695,Gugulethu,Mahlase,1960-08-21,2024-10-06,Cape Town,VMobile,1
+68,0761704638,Monica,Evans,1983-01-27,2024-02-03,Cape Town,VMobile,1
+69,0763355406,Heather,Thompson,1989-03-17,2024-01-15,Port Elizabeth,VMobile,1
+70,0764031374,Lungile,Siyaya,1953-11-20,2025-06-07,Ekurhuleni,VMobile,1
+71,0765030894,Jill,Miah,1981-01-16,2025-06-05,Ekurhuleni,VMobile,1
+72,0766591547,Thembisile,Lukhele,1943-09-19,2023-09-18,Durban,VMobile,1
+73,0767639036,Thalente,Galu,1993-01-23,2024-12-08,Johannesburg,VMobile,1
+74,0767973262,Nonjabulo,Nhlanhlampofu,1968-05-17,2024-05-31,Ekurhuleni,VMobile,1
+75,0769640012,Kirsty,May,1945-06-02,2024-12-16,Port Elizabeth,VMobile,1
+76,0770570082,Nomusa,Hlomuka,2004-02-29,2023-09-10,Ekurhuleni,VMobile,1
+77,0770950073,Georgia,Price,1956-06-17,2025-03-06,Johannesburg,VMobile,1
+78,0771192228,Mario,Smith,2002-10-25,2025-01-09,Cape Town,VMobile,1
+79,0771583203,Musa,Sondisa,1999-05-22,2023-10-29,Cape Town,VMobile,1
+80,0772909252,Amahle,Cwalile,1947-10-01,2024-09-11,Johannesburg,VMobile,1
+81,0774230241,Njabulo,Sikobi,1946-07-26,2024-11-09,Vereeniging,VMobile,1
+82,0775448067,Silondile,Guliwe,1990-06-29,2024-04-01,Cape Town,VMobile,1
+83,0775957924,Amanda,Martinez,1984-06-27,2023-10-27,Ekurhuleni,VMobile,1
+84,0776715116,Siyabonga,Hlatshwayo,1980-01-31,2024-01-01,East London,VMobile,1
+85,0777008770,Ashley,Bond,1945-10-11,2025-05-27,Ekurhuleni,VMobile,1
+86,0778478997,Marcus,Morris,1968-09-29,2024-10-01,Ekurhuleni,VMobile,1
+87,0779961344,Langalibalele,Nyambose,1966-11-22,2024-05-31,Krugersdorp,VMobile,1
+88,0780470523,Dean,Stevens,1991-07-19,2023-08-16,Durban,VMobile,1
+89,0781311807,Vincent,Read,1962-09-28,2025-03-12,Johannesburg,VMobile,1
+90,0782561720,Todd,Jones,1991-05-08,2024-05-01,Cape Town,VMobile,1
+91,0783253285,Jacqueline,Sutton,1944-06-13,2023-07-25,Pretoria,VMobile,1
+92,0785690836,Bhekokwakhe,Mcwaye,1979-02-06,2024-05-28,Ekurhuleni,VMobile,1
+93,0786674547,Mlungisi,Sokhela,1997-04-06,2025-03-10,Ekurhuleni,VMobile,1
+94,0787961134,Londisizwe,Gcwabe,1980-11-04,2024-03-04,Cape Town,VMobile,1
+95,0788451269,Amahle,Ndima,1966-07-11,2024-04-17,Ekurhuleni,VMobile,1
+96,0789810620,Thabisile,Cebekhulu,1964-03-23,2024-04-11,Ekurhuleni,VMobile,1
+97,0790250774,S'fiso,Ndawonde,1949-02-03,2025-06-08,East London,VMobile,1
+98,0790732780,Matthew,Davis,1946-03-04,2024-06-26,Pretoria,VMobile,1
+99,0790900159,Julie,Marsden,1963-10-08,2024-08-01,Cape Town,VMobile,1
+100,0791923440,Mandla,Dludlu,1998-02-02,2024-10-13,Boksburg,VMobile,1
+101,0792348065,Lucy,Wright,1994-09-03,2024-09-29,Johannesburg,VMobile,1
+102,0793605906,Zibuyile,Sithuli,2000-04-21,2024-11-07,Durban,VMobile,1
+103,0795246915,Nozizwe,Lange,1954-02-19,2025-03-31,Pretoria,VMobile,1
+104,0795825108,Jennifer,Lewis,1973-07-25,2024-08-05,Cape Town,VMobile,1
+105,0796205527,SimphiweyiNkosi,Msani,1978-04-27,2024-02-12,Johannesburg,VMobile,1
+106,0796677912,Allison,Obrien,2005-03-20,2023-12-09,Cape Town,VMobile,1
+107,0797558478,Randall,Rocha,1970-10-25,2023-09-04,Johannesburg,VMobile,1
+108,0798844055,Mthokozisi,Sishiya,1977-03-28,2024-10-26,Ekurhuleni,VMobile,1
+109,0799698904,Jeffrey,Bright,1974-04-07,2023-10-26,Pretoria,VMobile,1
+110,0700408017,Roger,Pritchard,1998-12-17,2024-12-23,Port Elizabeth,BlueMobile,1
+111,0704465602,Johw,Tran,2003-09-22,2024-09-08,Tshwane,BlueMobile,1
+112,0700498064,Sithembiso,Sabelo,1961-01-02,2023-10-05,Cape Town,BlueMobile,1
+113,0708030287,Linda,Mellor,1987-07-16,2024-05-12,eThekwini,BlueMobile,1
+114,0700536653,Thabani,Phewa,1960-10-20,2025-06-03,Soshanguve,BlueMobile,1
+115,0701422836,Erin,Carlson,1965-10-10,2024-10-09,Soshanguve,BlueMobile,1
+116,0702126483,Margaret,Wright,1971-06-11,2023-11-22,Cape Town,BlueMobile,1
+117,0702983213,Bandile,Kweyama,2002-08-18,2024-02-26,Johannesburg,BlueMobile,1
+118,0703402404,Nomasonto,Ndandali,1970-10-25,2024-02-05,Johannesburg,BlueMobile,1
+119,0704552601,Jill,Young,1990-09-09,2025-02-24,Johannesburg,BlueMobile,1
+120,0705295490,Thabisile,Mtolo,1984-02-22,2025-01-24,Cape Town,BlueMobile,1
+121,0705781665,Zinhle,Dumisa,1980-03-05,2023-09-29,Cape Town,BlueMobile,1
+122,0706347171,Nozizwe,Hlela,2006-02-21,2024-09-29,Ekurhuleni,BlueMobile,1
+123,0706908401,Siphesihle,Dinabantu,2005-11-10,2025-01-02,Johannesburg,BlueMobile,1
+124,0707578628,Thembile,Madonsela,1941-04-17,2024-09-29,Durban,BlueMobile,1
+125,0708162164,Sihawukele,Shoyisa,1956-04-01,2024-08-29,Port Elizabeth,BlueMobile,1
+126,0709138730,Mlungisi,Ndwandwe,1968-12-03,2023-11-28,Johannesburg,BlueMobile,1
+127,0709654582,Eric,Collins,1941-01-08,2023-10-25,Kimberley,BlueMobile,1
+128,0710361466,Ross,Silva,1964-03-23,2024-09-23,East London,BlueMobile,1
+129,0711312486,Vusumuzi,Maphindela,1974-04-07,2023-09-14,Port Elizabeth,BlueMobile,1
+130,0711572067,Mitt,Clark,1957-04-10,2024-10-04,Polokwane,BlueMobile,0
+131,0712113164,Ndumiso,Mkhumbuzi,1986-05-17,2023-12-17,Ekurhuleni,BlueMobile,1
+132,0712113164,Ndumiso,Mkhumbuzi,1986-05-17,2023-12-17,East Rand,BlueMobile,0
+133,0712385865,Nicole,Potter,1991-11-23,2024-11-23,Pretoria,BlueMobile,1
+134,0712488797,Amahle,Mdlanyoka,2004-12-01,2024-03-07,Cape Town,BlueMobile,1
+135,0712755488,Mandla,Ngobisi,1963-06-27,2023-09-07,Johannesburg,BlueMobile,1
+136,0712755488,Manp,Ngobisi,1963-06-27,2023-09-07,Johannesburg,BlueMobile,0
+137,0713173581,Julo,Howard,1944-03-06,2025-05-13,Ekurhuleni,BlueMobile,0
+138,0714185136,Thuthukile,Mawewe,1996-06-25,2025-04-15,Cape Town,BlueMobile,1
+139,0715586306,Sandile,Ndonga,1958-10-07,2024-04-01,Cape Town,BlueMobile,1
+140,0715586306,Sandile,Ndonga,1958-10-07,2024-04-01,Kaapstad,BlueMobile,0
+141,0715983327,Timothy,Davies,2000-04-21,2024-10-06,Pretoria,BlueMobile,1
+142,0717286902,John,Ford,1957-12-17,2024-12-31,Ekurhuleni,BlueMobile,1
+143,0718061525,Thembisile,Majola,1966-10-16,2025-06-03,Cape Town,BlueMobile,1
+144,0718983643,Gemma,Ferguson,1959-07-17,2025-03-05,Johannesburg,BlueMobile,1
+145,0719396045,Nomathalente,Phingoshe,1958-07-20,2023-12-11,Johannesburg,BlueMobile,1
+146,0719396045,Nomu,Phingoshe,1958-07-20,2023-12-11,Johannesburg,BlueMobile,0
+147,0719961318,Ndumiso,Dinangwe,1979-08-17,2024-01-23,Ekurhuleni,BlueMobile,1
+148,0720029924,Mnqo,Hlongwane,1974-07-31,2024-05-28,Cape Town,BlueMobile,1
+149,0720125760,SimphiweyiNkosi,Sikobi,2002-07-03,2024-06-19,Johannesburg,BlueMobile,1
+150,0720593040,Sihawukele,Ndawo,1990-05-06,2024-06-18,Johannesburg,BlueMobile,1
+151,0720714523,Sandra,Sellers,1980-05-07,2024-06-30,Cape Town,BlueMobile,1
+152,0721198397,Tomy,Warner,1965-06-12,2025-02-06,Klerksdorp,BlueMobile,1
+153,0721340588,Janice,Hopkins,1968-04-20,2023-12-22,Durban,BlueMobile,1
+154,0721345908,Nomathalente,Gubhuza,1950-10-18,2024-04-26,Kaapstad,BlueMobile,1
+155,0722330476,Silondile,Khubisa,1979-10-10,2023-09-05,Johannesburg,BlueMobile,1
+156,0722745553,Katy,Smith,1985-02-11,2024-05-26,Gqeberha,BlueMobile,1
+157,0722747624,Lwandile,Msane,1995-07-08,2024-04-20,Ekurhuleni,BlueMobile,1
+158,0722747624,Lwandile,Msane,1995-08-07,2024-04-20,Ekurhuleni,BlueMobile,0
+159,0723131974,Lynda,Davison,1954-01-02,2024-07-08,Soshanguve,BlueMobile,1
+160,0724493478,Danielle,Johnson,1958-04-22,2024-02-05,Johannesburg,BlueMobile,1
+161,0725138892,Thandazile,Gcaba,1963-02-12,2025-05-08,Durban,BlueMobile,1
+162,0725463719,Nomy,Ntshingila,1959-09-17,2024-02-15,Durban,BlueMobile,1
+163,0726147995,Thembekile,Gubhuza,1955-03-04,2024-11-09,Durban,BlueMobile,1
+164,0726176224,Vanessa,Brooks,1969-05-28,2025-05-28,Kaapstad,BlueMobile,1
+165,0726606265,Zenzile,Dindi,1961-10-15,2025-03-27,Welkom,BlueMobile,1
+166,0728019757,Nozizwe,Mngwengwe,1976-04-14,2024-09-19,Ekurhuleni,BlueMobile,1
+167,0728547628,Janw,Williams,1955-06-02,2023-12-05,Springs,BlueMobile,1
+168,0728744137,Simphiwe,Msamkhulu,1979-08-20,2024-05-04,Cape Town,BlueMobile,1
+169,0729603611,Debra,Smith,1977-03-28,2024-03-08,Cape Town,BlueMobile,1
+170,0729733969,S'fiso,Galu,1948-04-06,2024-10-02,Johannesburg,BlueMobile,1
+171,0729820192,Anna,Baker,1979-05-16,2024-02-27,Durban,BlueMobile,1
+172,0729820192,Anna,Baker,1979-05-16,2024-02-27,eThekwini,BlueMobile,0
+173,0730008139,Brian,Thomas,1955-02-06,2023-12-13,East London,BlueMobile,1
+174,0730744349,Joshua,Booth,1991-03-25,2024-05-31,Kaapstad,BlueMobile,0
+175,0732183258,Anna,Baldwin,1987-04-26,2025-02-05,Johannesburg,BlueMobile,1
+176,0732960859,Clare,Wilkins,1949-02-03,2024-06-21,Cape Town,BlueMobile,1
+177,0733191788,Musp,Nodlomo,1999-10-20,2025-06-01,Soshanguve,BlueMobile,0
+178,0734401930,Douglas,Taylor,1990-04-15,2024-01-09,Johannesburg,BlueMobile,1
+179,0734512854,Lonw,Ximba,1992-05-25,2025-01-01,East London,BlueMobile,1
+180,0734580420,Thembekile,Magononde,1993-06-29,2025-01-25,Bloemfontein,BlueMobile,1
+181,0734810654,Nomcebo,Ngobisi,2003-08-01,2023-10-11,Johannesburg,BlueMobile,1
+182,0735555294,Nhlanhla,Ngazitha,1971-12-08,2024-09-09,Ekurhuleni,BlueMobile,1
+183,0736685370,Thabani,Mavela,1965-01-13,2024-05-03,Cape Town,BlueMobile,1
+184,0737391314,Thembile,Mahlinza,1981-01-12,2023-09-26,Rustenburg,BlueMobile,1
+185,0738285947,Katy,Jones,1977-01-02,2024-08-13,Ekurhuleni,BlueMobile,1
+186,0738452446,Mthokozisi,Ximba,1998-10-12,2025-03-08,Pretoria,BlueMobile,0
+187,0739163904,Marcus,Page,1991-06-11,2025-06-05,Durban,BlueMobile,1
+188,0739579306,Thomas,Pierce,1957-08-18,2024-05-24,Springs,BlueMobile,1
+189,0739579306,Thow,Pierce,1957-08-18,2024-05-24,Springs,BlueMobile,0
+190,0739590700,Kimberly,Perez,1941-10-10,2024-10-27,Ekurhuleni,BlueMobile,1
+191,0740407777,Nkazimulo,Mnyoni,1957-08-04,2024-01-02,Benoni,BlueMobile,1
+192,0740678513,Rita,Kaur,1954-05-08,2024-12-10,Egoli,BlueMobile,1
+193,0741042905,Nhlanhla,Sibindi,1999-07-14,2023-12-24,Cape Town,BlueMobile,1
+194,0741562035,Thae,Ngidi,1994-03-09,2023-10-21,Middelburg,BlueMobile,1
+195,0741797104,Mandla,Njinji,1998-03-28,2023-08-11,Durban,BlueMobile,1
+196,0742020320,Nothando,Shoyisa,1943-12-04,2025-05-03,Ekurhuleni,BlueMobile,1
+197,0743282991,Jabulani,Ngazitha,1952-09-25,2025-05-31,Johannesburg,BlueMobile,1
+198,0744036820,Jesse,Garcia,1958-07-05,2025-03-13,Klerksdorp,BlueMobile,1
+199,0745481138,Londisizwe,Zikhungwini,1997-04-19,2024-06-05,Polokwane,BlueMobile,1
+200,0746205845,Mthokozisi,Sithole,1992-09-04,2024-08-14,Boksburg,BlueMobile,1
+201,0746721111,Sandile,Magononde,1942-01-16,2025-01-28,Springs,BlueMobile,1
+202,0747092401,Angela,Chapman,1940-01-30,2024-11-04,Cape Town,BlueMobile,1
+203,0748057905,Eric,Smith,1988-09-23,2025-04-02,West Rand,BlueMobile,1
+204,0749852120,Kelly,Wilkinson,2005-10-23,2023-12-08,Pretoria,BlueMobile,1
+205,0749895634,Mine,Mondise,1955-06-04,2025-02-16,Johannesburg,BlueMobile,1
+206,0749951541,Nomagugu,Khabalidaka,1977-02-27,2025-05-15,Johannesburg,BlueMobile,1
+207,0750688826,Thabisile,Gabhisa,2000-08-09,2023-09-30,Tshwane,BlueMobile,0
+208,0750711986,Njai,Dumisa,1952-01-29,2023-08-05,Egoli,BlueMobile,1
+209,0750818959,Nomathemba,Mgcaleka,1946-01-04,2024-07-17,Cape Town,BlueMobile,1
+210,0753079529,Thandeka,Mncube,1988-06-04,2024-04-23,Polokwane,BlueMobile,1
+211,0753445274,Kathleen,John,1949-12-28,2023-09-17,Ekurhuleni,BlueMobile,1
+212,0753625790,Chep,Ryan,1983-10-25,2023-11-02,Boksburg,BlueMobile,1
+213,0753729547,Zinhle,Mzileni,1984-12-22,2024-12-04,Cape Town,BlueMobile,1
+214,0755026696,Zenzele,Njinji,2006-08-20,2025-04-25,Cape Town,BlueMobile,1
+215,0755830723,Trevor,Campos,1998-03-10,2024-07-29,Egoli,BlueMobile,0
+216,0756849299,Nozizwe,Mzizi,2001-03-14,2023-09-13,Bloemfontein,BlueMobile,1
+217,0757311186,Thembeka,Mchunu,2007-05-18,2024-02-17,Cape Town,BlueMobile,1
+218,0758622777,Thandiwe,Ndlangamandla,1975-08-02,2025-06-08,West Rand,BlueMobile,1
+219,0758773144,Sihawukele,Vundla,1948-02-24,2023-09-09,Durban,BlueMobile,1
+220,0759434978,Marc,Edwards,1966-09-29,2024-09-10,Pretoria,BlueMobile,1
+221,0759434978,Maro,Edwards,1966-09-29,2024-09-10,Pretoria,BlueMobile,0
+222,0759967153,Nonjabulo,Mzileni,1996-05-08,2025-06-08,Ekurhuleni,BlueMobile,1
+223,0761164231,Louis,Morris,1976-04-08,2024-08-13,Pretoria,BlueMobile,1
+224,0761477359,Linda,Wolfe,1962-09-29,2024-08-16,Johannesburg,BlueMobile,1
+225,0761935085,Andile,Nowanqa,1959-02-12,2023-11-19,Johannesburg,BlueMobile,1
+226,0763379489,Khanyisile,Mpumuza,1954-10-05,2024-08-08,Pretoria,BlueMobile,1
+227,0764351821,Zenzile,Mgwaba,1964-05-17,2023-11-26,Welkom,BlueMobile,1
+228,0765054595,Nobuhle,Mbembe,1964-10-12,2023-12-22,Ekurhuleni,BlueMobile,1
+229,0765569160,Mnqw,Dlamane,1994-08-03,2025-03-08,East Rand,BlueMobile,1
+230,0766307074,Kayleigh,Burns,1983-01-27,2023-07-23,Cape Town,BlueMobile,1
+231,0767240786,Rhys,Davies,1987-05-08,2025-05-04,Cape Town,BlueMobile,1
+232,0767399287,Dunw,Humphries,1965-05-31,2024-06-16,Vereeniging,BlueMobile,1
+233,0767578966,Mthokozisi,Myeni,1952-08-17,2024-01-15,Johannesburg,BlueMobile,1
+234,0767768686,Thembile,Nkundlande,1973-12-26,2024-02-08,Benoni,BlueMobile,1
+235,0768138021,Jeffrey,Nguyen,1991-11-16,2024-01-09,Johannesburg,BlueMobile,1
+236,0768158896,Thembisile,Shelembe,1947-08-03,2023-07-22,Cape Town,BlueMobile,1
+237,0768741126,Jeffery,Wagner,1941-05-25,2024-04-28,Johannesburg,BlueMobile,1
+238,0769640012,Kirt,May,1945-06-02,2024-12-16,Port Elizabeth,BlueMobile,0
+239,0770570082,Nomr,Hlomuka,2004-02-29,2023-09-10,Ekurhuleni,BlueMobile,0
+240,0770953276,Lwandile,Mhlanga,1989-08-28,2023-07-20,West Rand,BlueMobile,1
+241,0771440865,Ndumiso,Ngidi,1950-03-04,2023-07-24,Vereeniging,BlueMobile,1
+242,0771918275,Nomthandazo,Ngema,1942-08-04,2025-04-16,Durban,BlueMobile,1
+243,0774160565,Linda,Shaw,1996-03-09,2024-10-07,Johannesburg,BlueMobile,1
+244,0775025294,Brandon,Jones,1947-03-16,2023-11-24,Durban,BlueMobile,1
+245,0775593486,Bhekisisa,Khubisa,1994-07-17,2024-08-09,Vereeniging,BlueMobile,1
+246,0776010419,Sheila,Mitchell,1986-07-15,2024-07-21,Johannesburg,BlueMobile,1
+247,0776745900,Nomvula,Mbhodwe,1987-08-12,2024-11-15,Durban,BlueMobile,1
+248,0777782468,Mathew,Scott,1983-02-22,2024-09-11,Benoni,BlueMobile,1
+249,0778724103,Anthony,Taylor,1949-12-28,2024-09-10,Johannesburg,BlueMobile,1
+250,0779152086,Kart,Carter,1976-04-18,2025-01-13,Johannesburg,BlueMobile,1
+251,0779234888,Zenzile,Sijadu,1994-10-06,2024-08-07,Durban,BlueMobile,1
+252,0780056550,Nqobizitha,Khuzwayo,1991-01-09,2024-03-11,Ekurhuleni,BlueMobile,1
+253,0781102199,Thandeka,Mzila,1951-03-28,2025-01-13,Johannesburg,BlueMobile,1
+254,0782499920,Zibuyile,Mathula,1962-02-15,2024-01-18,Ekurhuleni,BlueMobile,1
+255,0782499920,Zibuyile,Mathula,1962-02-15,2024-01-18,East Rand,BlueMobile,0
+256,0782686315,Thando,Mahlalela,1957-08-21,2024-07-20,Polokwane,BlueMobile,1
+257,0783581201,John,Taylor,1946-07-26,2024-12-19,Durban,BlueMobile,1
+258,0785690836,Bheq,Mcwaye,1979-02-06,2024-05-28,Ekurhuleni,BlueMobile,0
+259,0786740905,Ricky,Price,1996-05-08,2024-11-14,Paarl,BlueMobile,1
+260,0788255410,Londisizwe,Gotsholo,1943-01-02,2024-06-15,Polokwane,BlueMobile,1
+261,0788255410,Londisizwe,Gotsholo,1943-02-01,2024-06-15,Polokwane,BlueMobile,0
+262,0788798367,Langalibalele,Khomo,1954-09-23,2023-09-21,Cape Town,BlueMobile,1
+263,0789209708,Dant,Burton,1993-06-29,2024-02-05,Egoli,BlueMobile,1
+264,0789600650,Sihawukele,Sothole,1957-09-30,2024-10-27,Ekurhuleni,BlueMobile,1
+265,0789810620,Thaq,Cebekhulu,1964-03-23,2024-04-11,Ekurhuleni,BlueMobile,0
+266,0790328958,Lungile,Ntanzi,1964-05-28,2023-10-11,Johannesburg,BlueMobile,1
+267,0790781178,Mary,Anderson,1965-10-10,2023-09-19,Durban,BlueMobile,1
+268,0791549028,Sphiwe,Mathula,1970-02-13,2024-03-07,Johannesburg,BlueMobile,1
+269,0792106918,Ryan,Holland,1954-06-21,2024-03-15,Cape Town,BlueMobile,1
+270,0792624290,Nomthandazo,Dlungwana,1941-08-14,2024-09-22,Botshabelo,BlueMobile,1
+271,0793605906,Zibu,Sithuli,2000-04-21,2024-11-07,Durban,BlueMobile,0
+272,0795728959,Stacey,Miller,1948-04-30,2023-11-09,Johannesburg,BlueMobile,1
+273,0795728959,Stau,Miller,1948-04-30,2023-11-09,Johannesburg,BlueMobile,0
+274,0795885602,Bhekisisa,Mphephethwa,1943-12-13,2023-09-09,Kimberley,BlueMobile,1
+275,0796509072,Phillip,Johnston,1978-03-10,2025-02-09,Bloemfontein,BlueMobile,1
+276,0796967165,Nomagugu,Ayize,2006-08-22,2024-01-30,Botshabelo,BlueMobile,1
+277,0798062959,Mandla,Yei,1965-07-24,2023-10-08,Witbank,BlueMobile,1
+278,0798290960,Veronica,Bowman,1977-06-29,2024-07-27,Egoli,BlueMobile,1
+279,0798418621,Simphiwe,Mbhense,1957-08-18,2025-01-23,Johannesburg,BlueMobile,1
+280,0798844055,Mthokozisi,Sishiya,1977-03-28,2024-10-26,East Rand,BlueMobile,0
+281,0799698904,Jefy,Bright,1974-04-07,2023-10-26,Pretoria,BlueMobile,0
+282,0704465602,John,Tran,NULL,2024-09-08,Pretoria,ArrowMobile,0
+283,0708030287,Linda,Mellor,NULL,2024-05-12,Durban,ArrowMobile,0
+284,0700594567,Donald,Lowe,NULL,2023-07-20,Ekurhuleni,ArrowMobile,1
+285,0701525711,Sibongile,Gxabhashe,NULL,2023-07-17,Welkom,ArrowMobile,1
+286,0702796440,Lewis,Evans,NULL,2024-12-05,Pietermaritzburg,ArrowMobile,1
+287,0703027009,Luyanda,Madinane,NULL,2024-06-29,Cape Town,ArrowMobile,1
+288,0703678152,Busisiwe,Hadebe,NULL,2025-02-07,Boksburg,ArrowMobile,1
+289,0704702209,Andile,Sangweni,NULL,2025-05-02,Johannesburg,ArrowMobile,1
+290,0705723746,Bandile,Ngungunyana,NULL,2023-11-29,Soshanguve,ArrowMobile,1
+291,0705989494,Thembeka,Sontuli,NULL,2024-10-27,Pretoria,ArrowMobile,1
+292,0706374564,Bhekisisa,Ndiyema,NULL,2025-03-31,West Rand,ArrowMobile,1
+293,0707033903,Sibusisiwe,Mtolo,NULL,2024-08-11,Ekurhuleni,ArrowMobile,1
+294,0707724345,Donald,Taylor,NULL,2024-01-12,Pietermaritzburg,ArrowMobile,1
+295,0708208823,Silondile,Nyawo,NULL,2024-10-21,Cape Town,ArrowMobile,1
+296,0709188166,Nozizwe,Mawewe,NULL,2023-08-13,East London,ArrowMobile,1
+297,0709798813,Thabisa,Mgenge,NULL,2023-09-23,Bloemfontein,ArrowMobile,1
+298,0710816964,Nomcebo,Mntimande,NULL,2023-08-14,Welkom,ArrowMobile,1
+299,0711513959,Dumisani,Jobe,NULL,2023-08-28,West Rand,ArrowMobile,1
+300,0711688823,Joan,Naylor,NULL,2024-07-18,Klerksdorp,ArrowMobile,1
+301,0712488797,Amahle,Mdlanyoka,NULL,2024-03-07,Cape Town,ArrowMobile,0
+302,0713677185,Simphiwe,Makhoba,NULL,2024-04-17,Polokwane,ArrowMobile,1
+303,0714247268,Mandla,Mtuswa,NULL,2025-02-25,George,ArrowMobile,1
+304,0715586306,Sandile,Ndonga,NULL,2024-04-01,Kaapstad,ArrowMobile,0
+305,0716126226,Dumisani,Musi,NULL,2024-10-07,Thohoyandou,ArrowMobile,1
+306,0717601695,Jason,Hahn,NULL,2024-10-14,Pretoria,ArrowMobile,1
+307,0718136627,Ashley,Miller,NULL,2025-05-24,Ekurhuleni,ArrowMobile,1
+308,0719015850,Sihawukele,Nongalo,NULL,2023-12-04,Ekurhuleni,ArrowMobile,1
+309,0720029924,Mnqobi,Hlongwane,NULL,2024-05-28,Cape Town,ArrowMobile,0
+310,0720593040,Sihawukele,Ndawo,NULL,2024-06-18,Johannesburg,ArrowMobile,0
+311,0721198397,Tom,Warner,NULL,2025-02-06,Klerksdorp,ArrowMobile,0
+312,0721345908,Nomathalente,Gubhuza,NULL,2024-04-26,Cape Town,ArrowMobile,0
+313,0722745553,Katherine,Smith,NULL,2024-05-26,Port Elizabeth,ArrowMobile,0
+314,0722747624,Lwat,Msane,NULL,2024-04-20,Ekurhuleni,ArrowMobile,0
+315,0723484978,Mlungisi,Jama,NULL,2023-11-08,Cape Town,ArrowMobile,1
+316,0724545371,Zakhele,Mabika,NULL,2024-07-11,Port Elizabeth,ArrowMobile,1
+317,0725463719,Nomathalente,Ntshingila,NULL,2024-02-15,Durban,ArrowMobile,0
+318,0726176224,Vanessa,Brooks,NULL,2025-05-28,Cape Town,ArrowMobile,0
+319,0727246392,Jabulani,Mafulela,NULL,2023-07-20,Newcastle,ArrowMobile,1
+320,0728547628,Janet,Williams,NULL,2023-12-05,Springs,ArrowMobile,0
+321,0728781369,Antony,Buckley,NULL,2024-06-20,Cape Town,ArrowMobile,1
+322,0729619869,Sibusisiwe,Andile,NULL,2024-12-01,Durban,ArrowMobile,1
+323,0729817295,Amahle,Ngobese,NULL,2023-09-04,Ekurhuleni,ArrowMobile,1
+324,0729820192,Annt,Baker,NULL,2024-02-27,Durban,ArrowMobile,0
+325,0730210420,Amelia,Oliver,NULL,2024-11-18,Johannesburg,ArrowMobile,1
+326,0731726871,Charlene,Randall,NULL,2023-08-30,Cape Town,ArrowMobile,1
+327,0732301840,Jason,Ryan,NULL,2025-04-09,Welkom,ArrowMobile,1
+328,0733128243,Siphesihle,Mnangwe,NULL,2024-01-20,Vereeniging,ArrowMobile,1
+329,0733195138,Amahle,Magujwa,NULL,2024-03-14,Newcastle,ArrowMobile,1
+330,0734512854,Londiwe,Ximba,NULL,2025-01-01,East London,ArrowMobile,0
+331,0734719249,Chad,Welch,NULL,2024-06-13,East London,ArrowMobile,1
+332,0735045002,Siphesihle,Ngcolosi,NULL,2024-05-27,West Rand,ArrowMobile,1
+333,0736463373,Gugu,Mnyandu,NULL,2023-12-26,Durban,ArrowMobile,1
+334,0736732237,Zinhle,Ndabansele,NULL,2023-10-26,Durban,ArrowMobile,1
+335,0737674304,Danielle,Sharp,NULL,2024-11-15,Klerksdorp,ArrowMobile,1
+336,0738312041,Lungile,Nzimande,NULL,2024-05-31,Ekurhuleni,ArrowMobile,1
+337,0738718563,Kyle,Brown,NULL,2025-04-28,Cape Town,ArrowMobile,1
+338,0739228461,Mcebisi,Dubandlela,NULL,2024-09-28,Durban,ArrowMobile,1
+339,0739579306,Thoe,Pierce,NULL,2024-05-24,Springs,ArrowMobile,0
+340,0740027276,Mzamo,Sembathwa,NULL,2025-05-20,Johannesburg,ArrowMobile,1
+341,0740678513,Rita,Kaur,NULL,2024-12-10,Johannesburg,ArrowMobile,0
+342,0740678513,Ritw,Kaur,NULL,2024-12-10,Johannesburg,ArrowMobile,0
+343,0740715738,Brittany,Johnson,NULL,2024-11-12,Johannesburg,ArrowMobile,1
+344,0741562035,Thalente,Ngidi,NULL,2023-10-21,Middelburg,ArrowMobile,0
+345,0742020320,Nothando,Shoyisa,NULL,2025-05-03,Ekurhuleni,ArrowMobile,0
+346,0743417384,William,Gonzalez,NULL,2023-08-19,Cape Town,ArrowMobile,1
+347,0744146237,Guy,Alexander,NULL,2023-12-05,Durban,ArrowMobile,1
+348,0745495609,Thomas,Reed,NULL,2023-08-04,Kimberley,ArrowMobile,1
+349,0746332321,Thandazile,Khathide,NULL,2024-02-23,Ekurhuleni,ArrowMobile,1
+350,0746984621,Rachael,Pritchard,NULL,2024-04-17,Cape Town,ArrowMobile,1
+351,0747753873,Njabulo,Ndabezitha,NULL,2025-01-28,Johannesburg,ArrowMobile,1
+352,0748419705,Sibonelo,Mavundla,NULL,2023-07-16,Cape Town,ArrowMobile,1
+353,0749895634,Minenhle,Mondise,NULL,2025-02-16,Johannesburg,ArrowMobile,0
+354,0750383551,Mcebisi,Mshikela,NULL,2025-01-05,Cape Town,ArrowMobile,1
+355,0750711986,Njabulo,Dumisa,NULL,2023-08-05,Johannesburg,ArrowMobile,0
+356,0751166645,Luyanda,Kubheka,NULL,2024-03-22,Port Elizabeth,ArrowMobile,1
+357,0753131305,Busisiwe,Nyanda,NULL,2025-02-17,Newcastle,ArrowMobile,1
+358,0753625790,Chelsea,Ryan,NULL,2023-11-02,Boksburg,ArrowMobile,0
+359,0754088048,Thabani,Jamile,NULL,2024-08-18,Nelspruit,ArrowMobile,1
+360,0755709632,Nomathalente,Nhlane,NULL,2025-01-07,Vereeniging,ArrowMobile,1
+361,0756114668,Owethu,Mafulela,NULL,2025-05-21,East London,ArrowMobile,1
+362,0757073185,Ryan,Taylor,NULL,2024-09-08,Krugersdorp,ArrowMobile,1
+363,0758098548,Carole,Matthews,NULL,2025-01-03,Witbank,ArrowMobile,1
+364,0758744686,Teresa,Walsh,NULL,2025-04-29,Cape Town,ArrowMobile,1
+365,0758901102,Mthokozisi,Mthethwa,NULL,2024-01-10,Johannesburg,ArrowMobile,1
+366,0760632550,Thabisa,Mgcaleka,NULL,2025-03-28,Durban,ArrowMobile,1
+367,0761389488,Londisizwe,Ndaba,NULL,2024-07-21,Cape Town,ArrowMobile,1
+368,0761598472,Thabisile,Mdaka,NULL,2023-10-05,Cape Town,ArrowMobile,1
+369,0762338119,Melanie,Bell,NULL,2024-07-18,Durban,ArrowMobile,1
+370,0763735255,Joshua,Lewis,NULL,2024-01-24,Johannesburg,ArrowMobile,1
+371,0764364545,Busisiwe,Mzulwini,NULL,2024-02-07,Cape Town,ArrowMobile,1
+372,0765569160,Mnqobi,Dlamane,NULL,2025-03-08,Ekurhuleni,ArrowMobile,0
+373,0766354480,Alexander,Le,NULL,2025-04-13,Krugersdorp,ArrowMobile,1
+374,0767399287,Duncan,Humphries,NULL,2024-06-16,Vereeniging,ArrowMobile,0
+375,0767632849,Erica,Mcclain,NULL,2024-09-09,Ekurhuleni,ArrowMobile,1
+376,0767843485,Mohammad,Smith,NULL,2025-02-28,Klerksdorp,ArrowMobile,1
+377,0768158896,Thembisile,Shelembe,NULL,2023-07-22,Cape Town,ArrowMobile,0
+378,0769031933,Bhekokwakhe,Mbatha,NULL,2025-06-06,Johannesburg,ArrowMobile,1
+379,0769652162,Linda,Morales,NULL,2024-10-29,Cape Town,ArrowMobile,1
+380,0770945460,Thando,Ndlela,NULL,2024-07-27,Durban,ArrowMobile,1
+381,0771177580,Danielle,Rodriguez,NULL,2024-09-07,Cape Town,ArrowMobile,1
+382,0771477596,Kathryn,Ryan,NULL,2024-06-21,West Rand,ArrowMobile,1
+383,0771920365,Shawn,Flowers,NULL,2024-12-27,East London,ArrowMobile,1
+384,0774163254,Mcebisi,Khosini,NULL,2025-02-15,Cape Town,ArrowMobile,1
+385,0775270396,SimphiweyiNkosi,Dlambula,NULL,2023-07-26,Pretoria,ArrowMobile,1
+386,0775640687,Thando,Mavundla,NULL,2024-05-05,Port Elizabeth,ArrowMobile,1
+387,0776328452,Zenzile,Phuthini,NULL,2024-04-29,Uitenhage,ArrowMobile,1
+388,0776874455,Bandile,Nkwanyana,NULL,2024-04-29,Pretoria,ArrowMobile,1
+389,0777937454,Wanda,Santos,NULL,2024-09-18,Durban,ArrowMobile,1
+390,0779152086,Karen,Carter,NULL,2025-01-13,Johannesburg,ArrowMobile,0
+391,0779545098,Bhekokwakhe,Mafobo,NULL,2024-04-16,Cape Town,ArrowMobile,1
+392,0780348072,Amahle,Mbhobho,NULL,2024-01-15,Cape Town,ArrowMobile,1
+393,0781238778,Zenzile,Phuthini,NULL,2023-10-20,Bloemfontein,ArrowMobile,1
+394,0782940238,Nobantu,Mlondo,NULL,2025-03-26,Boksburg,ArrowMobile,1
+395,0784301965,Andile,Thumbela,NULL,2023-10-27,Soshanguve,ArrowMobile,1
+396,0786671547,Khanyisile,Mthethwa,NULL,2023-12-27,Cape Town,ArrowMobile,1
+397,0787356407,Kathleen,Romero,NULL,2024-07-18,West Rand,ArrowMobile,1
+398,0789209708,Daniel,Burton,NULL,2024-02-05,Johannesburg,ArrowMobile,0
+399,0789793342,Amy,Robinson,NULL,2023-10-25,Pietermaritzburg,ArrowMobile,1
+400,0790022877,Zibuyile,Ndlandla,NULL,2024-06-07,Vereeniging,ArrowMobile,1
+401,0790681902,Nhlanhla,Nhlane,NULL,2024-10-28,Johannesburg,ArrowMobile,1
+402,0790892604,Dumisile,Mazwi,NULL,2025-04-23,Bloemfontein,ArrowMobile,1
+403,0791653270,Vusumuzi,Bhovungana,NULL,2025-01-25,Polokwane,ArrowMobile,1
+404,0792273093,Mthokozisi,Kubheka,NULL,2025-02-04,Soshanguve,ArrowMobile,1
+405,0792936129,Nhlanhla,Shandu,NULL,2025-04-06,Newcastle,ArrowMobile,1
+406,0795199855,Thabisile,Khuzwayo,NULL,2025-01-07,Durban,ArrowMobile,1
+407,0796004479,SimphiweyiNkosi,Mahlinza,NULL,2024-10-28,Nelspruit,ArrowMobile,1
+408,0796664125,Thandazile,Fakude,NULL,2024-06-26,Johannesburg,ArrowMobile,1
+409,0797256727,Bhekokwakhe,Dwala,NULL,2024-09-21,Durban,ArrowMobile,1
+410,0798290960,Veronica,Bowman,NULL,2024-07-27,Johannesburg,ArrowMobile,0
+411,0798562157,Jeffrey,Morgan,NULL,2024-07-24,Krugersdorp,ArrowMobile,1
+412,0799314934,Gerald,Bailey,NULL,2023-11-15,Soshanguve,ArrowMobile,1
+413,0799933613,Sithembiso,Mvubu,NULL,2024-09-29,Benoni,ArrowMobile,1

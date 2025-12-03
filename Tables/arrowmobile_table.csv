@@ -1,0 +1,173 @@
+uniqueid,Activate,Name,City,Cell,Date,Surname
+1,23 12 2024,Roger,Port Elizabeth,700408017,17 12 1998,Pritchard
+2,08 09 2024,Johw,Tshwane,704465602,22 09 2003,Tran
+3,05 10 2023,Sithembiso,Cape Town,700498064,02 01 1961,Sabelo
+4,12 05 2024,Linda,eThekwini,708030287,16 07 1987,Mellor
+5,03 06 2025,Thabani,Soshanguve,700536653,20 10 1960,Phewa
+6,09 10 2024,Erin,Soshanguve,701422836,10 10 1965,Carlson
+7,22 11 2023,Margaret,Cape Town,702126483,11 06 1971,Wright
+8,26 02 2024,Bandile,Johannesburg,702983213,18 08 2002,Kweyama
+9,05 02 2024,Nomasonto,Johannesburg,703402404,25 10 1970,Ndandali
+10,24 02 2025,Jill,Johannesburg,704552601,09 09 1990,Young
+11,24 01 2025,Thabisile,Cape Town,705295490,22 02 1984,Mtolo
+12,29 09 2023,Zinhle,Cape Town,705781665,05 03 1980,Dumisa
+13,29 09 2024,Nozizwe,Ekurhuleni,706347171,21 02 2006,Hlela
+14,02 01 2025,Siphesihle,Johannesburg,706908401,10 11 2005,Dinabantu
+15,29 09 2024,Thembile,Durban,707578628,17 04 1941,Madonsela
+16,29 08 2024,Sihawukele,Port Elizabeth,708162164,01 04 1956,Shoyisa
+17,28 11 2023,Mlungisi,Johannesburg,709138730,03 12 1968,Ndwandwe
+18,25 10 2023,Eric,Kimberley,709654582,08 01 1941,Collins
+19,23 09 2024,Ross,East London,710361466,23 03 1964,Silva
+20,14 09 2023,Vusumuzi,Port Elizabeth,711312486,07 04 1974,Maphindela
+21,04 10 2024,Mitt,Polokwane,711572067,10 04 1957,Clark
+22,17 12 2023,Ndumiso,Ekurhuleni,712113164,17 05 1986,Mkhumbuzi
+23,17 12 2023,Ndumiso,East Rand,712113164,17 05 1986,Mkhumbuzi
+24,23 11 2024,Nicole,Pretoria,712385865,23 11 1991,Potter
+25,07 03 2024,Amahle,Cape Town,712488797,01 12 2004,Mdlanyoka
+26,07 09 2023,Mandla,Johannesburg,712755488,27 06 1963,Ngobisi
+27,07 09 2023,Manp,Johannesburg,712755488,27 06 1963,Ngobisi
+28,13 05 2025,Julo,Ekurhuleni,713173581,06 03 1944,Howard
+29,15 04 2025,Thuthukile,Cape Town,714185136,25 06 1996,Mawewe
+30,01 04 2024,Sandile,Cape Town,715586306,07 10 1958,Ndonga
+31,01 04 2024,Sandile,Kaapstad,715586306,07 10 1958,Ndonga
+32,06 10 2024,Timothy,Pretoria,715983327,21 04 2000,Davies
+33,31 12 2024,John,Ekurhuleni,717286902,17 12 1957,Ford
+34,03 06 2025,Thembisile,Cape Town,718061525,16 10 1966,Majola
+35,05 03 2025,Gemma,Johannesburg,718983643,17 07 1959,Ferguson
+36,11 12 2023,Nomathalente,Johannesburg,719396045,20 07 1958,Phingoshe
+37,11 12 2023,Nomu,Johannesburg,719396045,20 07 1958,Phingoshe
+38,23 01 2024,Ndumiso,Ekurhuleni,719961318,17 08 1979,Dinangwe
+39,28 05 2024,Mnqo,Cape Town,720029924,31 07 1974,Hlongwane
+40,19 06 2024,SimphiweyiNkosi,Johannesburg,720125760,03 07 2002,Sikobi
+41,18 06 2024,Sihawukele,Johannesburg,720593040,06 05 1990,Ndawo
+42,30 06 2024,Sandra,Cape Town,720714523,07 05 1980,Sellers
+43,06 02 2025,Tomy,Klerksdorp,721198397,12 06 1965,Warner
+44,22 12 2023,Janice,Durban,721340588,20 04 1968,Hopkins
+45,26 04 2024,Nomathalente,Kaapstad,721345908,18 10 1950,Gubhuza
+46,05 09 2023,Silondile,Johannesburg,722330476,10 10 1979,Khubisa
+47,26 05 2024,Katy,Gqeberha,722745553,11 02 1985,Smith
+48,20 04 2024,Lwandile,Ekurhuleni,722747624,08 07 1995,Msane
+49,20 04 2024,Lwandile,Ekurhuleni,722747624,07 08 1995,Msane
+50,08 07 2024,Lynda,Soshanguve,723131974,02 01 1954,Davison
+51,05 02 2024,Danielle,Johannesburg,724493478,22 04 1958,Johnson
+52,08 05 2025,Thandazile,Durban,725138892,12 02 1963,Gcaba
+53,15 02 2024,Nomy,Durban,725463719,17 09 1959,Ntshingila
+54,09 11 2024,Thembekile,Durban,726147995,04 03 1955,Gubhuza
+55,28 05 2025,Vanessa,Kaapstad,726176224,28 05 1969,Brooks
+56,27 03 2025,Zenzile,Welkom,726606265,15 10 1961,Dindi
+57,19 09 2024,Nozizwe,Ekurhuleni,728019757,14 04 1976,Mngwengwe
+58,05 12 2023,Janw,Springs,728547628,02 06 1955,Williams
+59,04 05 2024,Simphiwe,Cape Town,728744137,20 08 1979,Msamkhulu
+60,08 03 2024,Debra,Cape Town,729603611,28 03 1977,Smith
+61,02 10 2024,S'fiso,Johannesburg,729733969,06 04 1948,Galu
+62,27 02 2024,Anna,Durban,729820192,16 05 1979,Baker
+63,27 02 2024,Anna,eThekwini,729820192,16 05 1979,Baker
+64,13 12 2023,Brian,East London,730008139,06 02 1955,Thomas
+65,31 05 2024,Joshua,Kaapstad,730744349,25 03 1991,Booth
+66,05 02 2025,Anna,Johannesburg,732183258,26 04 1987,Baldwin
+67,21 06 2024,Clare,Cape Town,732960859,03 02 1949,Wilkins
+68,01 06 2025,Musp,Soshanguve,733191788,20 10 1999,Nodlomo
+69,09 01 2024,Douglas,Johannesburg,734401930,15 04 1990,Taylor
+70,01 01 2025,Lonw,East London,734512854,25 05 1992,Ximba
+71,25 01 2025,Thembekile,Bloemfontein,734580420,29 06 1993,Magononde
+72,11 10 2023,Nomcebo,Johannesburg,734810654,01 08 2003,Ngobisi
+73,09 09 2024,Nhlanhla,Ekurhuleni,735555294,08 12 1971,Ngazitha
+74,03 05 2024,Thabani,Cape Town,736685370,13 01 1965,Mavela
+75,26 09 2023,Thembile,Rustenburg,737391314,12 01 1981,Mahlinza
+76,13 08 2024,Katy,Ekurhuleni,738285947,02 01 1977,Jones
+77,08 03 2025,Mthokozisi,Pretoria,738452446,12 10 1998,Ximba
+78,05 06 2025,Marcus,Durban,739163904,11 06 1991,Page
+79,24 05 2024,Thomas,Springs,739579306,18 08 1957,Pierce
+80,24 05 2024,Thow,Springs,739579306,18 08 1957,Pierce
+81,27 10 2024,Kimberly,Ekurhuleni,739590700,10 10 1941,Perez
+82,02 01 2024,Nkazimulo,Benoni,740407777,04 08 1957,Mnyoni
+83,10 12 2024,Rita,Egoli,740678513,08 05 1954,Kaur
+84,24 12 2023,Nhlanhla,Cape Town,741042905,14 07 1999,Sibindi
+85,21 10 2023,Thae,Middelburg,741562035,09 03 1994,Ngidi
+86,11 08 2023,Mandla,Durban,741797104,28 03 1998,Njinji
+87,03 05 2025,Nothando,Ekurhuleni,742020320,04 12 1943,Shoyisa
+88,31 05 2025,Jabulani,Johannesburg,743282991,25 09 1952,Ngazitha
+89,13 03 2025,Jesse,Klerksdorp,744036820,05 07 1958,Garcia
+90,05 06 2024,Londisizwe,Polokwane,745481138,19 04 1997,Zikhungwini
+91,14 08 2024,Mthokozisi,Boksburg,746205845,04 09 1992,Sithole
+92,28 01 2025,Sandile,Springs,746721111,16 01 1942,Magononde
+93,04 11 2024,Angela,Cape Town,747092401,30 01 1940,Chapman
+94,02 04 2025,Eric,West Rand,748057905,23 09 1988,Smith
+95,08 12 2023,Kelly,Pretoria,749852120,23 10 2005,Wilkinson
+96,16 02 2025,Mine,Johannesburg,749895634,04 06 1955,Mondise
+97,15 05 2025,Nomagugu,Johannesburg,749951541,27 02 1977,Khabalidaka
+98,30 09 2023,Thabisile,Tshwane,750688826,09 08 2000,Gabhisa
+99,05 08 2023,Njai,Egoli,750711986,29 01 1952,Dumisa
+100,17 07 2024,Nomathemba,Cape Town,750818959,04 01 1946,Mgcaleka
+101,23 04 2024,Thandeka,Polokwane,753079529,04 06 1988,Mncube
+102,17 09 2023,Kathleen,Ekurhuleni,753445274,28 12 1949,John
+103,02 11 2023,Chep,Boksburg,753625790,25 10 1983,Ryan
+104,04 12 2024,Zinhle,Cape Town,753729547,22 12 1984,Mzileni
+105,25 04 2025,Zenzele,Cape Town,755026696,20 08 2006,Njinji
+106,29 07 2024,Trevor,Egoli,755830723,10 03 1998,Campos
+107,13 09 2023,Nozizwe,Bloemfontein,756849299,14 03 2001,Mzizi
+108,17 02 2024,Thembeka,Cape Town,757311186,18 05 2007,Mchunu
+109,08 06 2025,Thandiwe,West Rand,758622777,02 08 1975,Ndlangamandla
+110,09 09 2023,Sihawukele,Durban,758773144,24 02 1948,Vundla
+111,10 09 2024,Marc,Pretoria,759434978,29 09 1966,Edwards
+112,10 09 2024,Maro,Pretoria,759434978,29 09 1966,Edwards
+113,08 06 2025,Nonjabulo,Ekurhuleni,759967153,08 05 1996,Mzileni
+114,13 08 2024,Louis,Pretoria,761164231,08 04 1976,Morris
+115,16 08 2024,Linda,Johannesburg,761477359,29 09 1962,Wolfe
+116,19 11 2023,Andile,Johannesburg,761935085,12 02 1959,Nowanqa
+117,08 08 2024,Khanyisile,Pretoria,763379489,05 10 1954,Mpumuza
+118,26 11 2023,Zenzile,Welkom,764351821,17 05 1964,Mgwaba
+119,22 12 2023,Nobuhle,Ekurhuleni,765054595,12 10 1964,Mbembe
+120,08 03 2025,Mnqw,East Rand,765569160,03 08 1994,Dlamane
+121,23 07 2023,Kayleigh,Cape Town,766307074,27 01 1983,Burns
+122,04 05 2025,Rhys,Cape Town,767240786,08 05 1987,Davies
+123,16 06 2024,Dunw,Vereeniging,767399287,31 05 1965,Humphries
+124,15 01 2024,Mthokozisi,Johannesburg,767578966,17 08 1952,Myeni
+125,08 02 2024,Thembile,Benoni,767768686,26 12 1973,Nkundlande
+126,09 01 2024,Jeffrey,Johannesburg,768138021,16 11 1991,Nguyen
+127,22 07 2023,Thembisile,Cape Town,768158896,03 08 1947,Shelembe
+128,28 04 2024,Jeffery,Johannesburg,768741126,25 05 1941,Wagner
+129,16 12 2024,Kirt,Port Elizabeth,769640012,02 06 1945,May
+130,10 09 2023,Nomr,Ekurhuleni,770570082,29 02 2004,Hlomuka
+131,20 07 2023,Lwandile,West Rand,770953276,28 08 1989,Mhlanga
+132,24 07 2023,Ndumiso,Vereeniging,771440865,04 03 1950,Ngidi
+133,16 04 2025,Nomthandazo,Durban,771918275,04 08 1942,Ngema
+134,07 10 2024,Linda,Johannesburg,774160565,09 03 1996,Shaw
+135,24 11 2023,Brandon,Durban,775025294,16 03 1947,Jones
+136,09 08 2024,Bhekisisa,Vereeniging,775593486,17 07 1994,Khubisa
+137,21 07 2024,Sheila,Johannesburg,776010419,15 07 1986,Mitchell
+138,15 11 2024,Nomvula,Durban,776745900,12 08 1987,Mbhodwe
+139,11 09 2024,Mathew,Benoni,777782468,22 02 1983,Scott
+140,10 09 2024,Anthony,Johannesburg,778724103,28 12 1949,Taylor
+141,13 01 2025,Kart,Johannesburg,779152086,18 04 1976,Carter
+142,07 08 2024,Zenzile,Durban,779234888,06 10 1994,Sijadu
+143,11 03 2024,Nqobizitha,Ekurhuleni,780056550,09 01 1991,Khuzwayo
+144,13 01 2025,Thandeka,Johannesburg,781102199,28 03 1951,Mzila
+145,18 01 2024,Zibuyile,Ekurhuleni,782499920,15 02 1962,Mathula
+146,18 01 2024,Zibuyile,East Rand,782499920,15 02 1962,Mathula
+147,20 07 2024,Thando,Polokwane,782686315,21 08 1957,Mahlalela
+148,19 12 2024,John,Durban,783581201,26 07 1946,Taylor
+149,28 05 2024,Bheq,Ekurhuleni,785690836,06 02 1979,Mcwaye
+150,14 11 2024,Ricky,Paarl,786740905,08 05 1996,Price
+151,15 06 2024,Londisizwe,Polokwane,788255410,02 01 1943,Gotsholo
+152,15 06 2024,Londisizwe,Polokwane,788255410,01 02 1943,Gotsholo
+153,21 09 2023,Langalibalele,Cape Town,788798367,23 09 1954,Khomo
+154,05 02 2024,Dant,Egoli,789209708,29 06 1993,Burton
+155,27 10 2024,Sihawukele,Ekurhuleni,789600650,30 09 1957,Sothole
+156,11 04 2024,Thaq,Ekurhuleni,789810620,23 03 1964,Cebekhulu
+157,11 10 2023,Lungile,Johannesburg,790328958,28 05 1964,Ntanzi
+158,19 09 2023,Mary,Durban,790781178,10 10 1965,Anderson
+159,07 03 2024,Sphiwe,Johannesburg,791549028,13 02 1970,Mathula
+160,15 03 2024,Ryan,Cape Town,792106918,21 06 1954,Holland
+161,22 09 2024,Nomthandazo,Botshabelo,792624290,14 08 1941,Dlungwana
+162,07 11 2024,Zibu,Durban,793605906,21 04 2000,Sithuli
+163,09 11 2023,Stacey,Johannesburg,795728959,30 04 1948,Miller
+164,09 11 2023,Stau,Johannesburg,795728959,30 04 1948,Miller
+165,09 09 2023,Bhekisisa,Kimberley,795885602,13 12 1943,Mphephethwa
+166,09 02 2025,Phillip,Bloemfontein,796509072,10 03 1978,Johnston
+167,30 01 2024,Nomagugu,Botshabelo,796967165,22 08 2006,Ayize
+168,08 10 2023,Mandla,Witbank,798062959,24 07 1965,Yei
+169,27 07 2024,Veronica,Egoli,798290960,29 06 1977,Bowman
+170,23 01 2025,Simphiwe,Johannesburg,798418621,18 08 1957,Mbhense
+171,26 10 2024,Mthokozisi,East Rand,798844055,28 03 1977,Sishiya
+172,26 10 2023,Jefy,Pretoria,799698904,07 04 1974,Bright
