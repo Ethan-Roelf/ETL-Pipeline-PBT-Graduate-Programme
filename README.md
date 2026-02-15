@@ -6,8 +6,8 @@ Project Overview (Full business Use-case and requirements can be found under in 
 
 The goal of this pipeline is to ingest data from multiple source systems (VMobile, BlueMobile, ArrowMobile), resolve customer duplicates through Master Data Management (MDM), and identify "Qualifying Subscribers" based on weekly revenue thresholds (R30+).
 
-**Architecture: Medallion Strategy
-**
+**Architecture: Medallion Strategy**
+
 The project follows a structured data flow to ensure quality and auditability:
 
 Bronze (Raw): Landing zone for original CSV files. Data is stored in 100% fidelity to the source in staging tables.
@@ -16,8 +16,8 @@ Silver (Standardized): Data is cleaned and standardized. This includes, but is n
 
 Gold (Curated): A high-performance Star Schema is generated. This layer consists of the Combined_table_no_duplicates (Dimension table) and Qualifying_Subscriber_table (Fact table), optimized for rapid reporting.
 
-**Tech Stack
-**
+**Tech Stack**
+
 Language: Python
 
 Processing: Pandas (ETL Logic)
@@ -28,8 +28,8 @@ Interface: SQLAlchemy & PyMySQL
 
 Reporting: XlsxWriter (Automated Excel generation)
 
-**Key Features
-**
+**Key Features**
+
 Automated MDM Logic: Prioritizes records based on source system hierarchy and SIM activation recency.
 
 Robust Data Cleaning: Handles inconsistent delimiters (semicolons vs. commas) and varying column headers across platforms.
