@@ -1,87 +1,73 @@
-This document outlines the architecture and logic of the VMobile ETL pipeline, which transforms raw subscriber and usage data into a structured MySQL Data Warehouse and an automated Excel Executive Report.
+1. Bronze Layer: Data Ingestion & Staging
+The Bronze layer is the "Raw" landing zone. Here, data is moved from external CSV files into MySQL Staging Tables.
 
-##1. Data Ingestion & Pre-processing (Bronze Layer)
+Why Use Staging Tables?
+Persistence: External CSV files can be moved, deleted, or altered. Staging tables provide a stable, immutable record of the raw data within the database.
 
-The initial phase focuses on modularity and data standardization to ensure disparate files can be processed by the same logic.
+Auditability: By keeping raw data in staging tables, we can always trace a "Gold" insight back to its "Bronze" source to verify accuracy.
 
-### Header & Format Standardization
+Performance: SQL-based joins and transformations in the Silver layer are more efficient when performed on database tables rather than re-reading multiple flat files from a disk.
 
-- **Modular File Processing:** A configuration dictionary is used to loop through files, allowing the code to remain modular and scalable for different source systems.
-- **`clean_headers` Function:** This function ensures database compatibility by stripping trailing spaces, replacing non-alphanumeric characters with underscores, and collapsing double underscores into single ones.
-- **`read_file_safe` Function:** This utility detects whether a file uses commas or semicolons as delimiters. It utilizes "coerce" errors during numeric conversion to handle unrecognized values by converting them to NaNs.
+Ingestion Logic (Python)
+Modular Processing: A configuration dictionary allows the pipeline to loop through files from different networks (VMobile, Blue, Arrow) using a single, modular code block.
 
-### Data Cleansing (`clean_and_process_data`)
+clean_headers Function: Cleans raw CSV headers using string manipulation to ensure they are SQL-compliant (removing spaces and special characters).
 
-- **Phone Number Standardization:** Using Regex, the script removes all non-digit characters. It performs string slicing to isolate the 9-digit suffix and prepends a "0" to ensure a consistent 10-digit South African format.
-- **Date Parsing:** Time components are stripped to isolate the date object. This allows for mathematical operations, such as calculating week-start (Monday) and week-end (Sunday) dates for reporting.
+read_file_safe Function: A robust utility that detects delimiters (commas vs. semicolons) and uses "coerce" errors to handle malformed numeric data without breaking the pipeline.
 
----
+2. Silver Layer: Standardization & Master Data Management (MDM)
+The Silver layer is the "Source of Truth." This is where data is cleansed, standardized, and deduplicated to identify the Master Record.
 
-## 2. Master Data Management (Silver Layer)
+Data Cleansing & Python Regex
+Phone Number Standardization: Used Regular Expressions (Regex) to strip non-digit characters and string slicing to ensure all South African MSISDNs follow a consistent 10-digit format (e.g., prepending "0").
 
-This phase reconciles records from three different source systems (VMobile, BlueMobile, and ArrowMobile) to create a single source of truth.
+Date Parsing: Converted raw strings into Python date objects. This enabled mathematical operations to determine reporting windows (Monday start to Sunday end).
 
-### Staging & Combination
+MDM & SQL Logic
+To identify the "Master Record" among duplicates across three networks, the following logic was applied:
 
-- **Staging Tables:** Data is first extracted from CSVs and loaded into MySQL staging tables using a mapping dictionary to align CSV headers with SQL columns.
-- **Unified DataFrame:** Data from all staging tables is read into a list of DataFrames. A temporary "Source System" column is added to each to track the data origin before they are concatenated and the index is reset.
+Sorting & Ranking: Used Python to sort the unified DataFrame by Source Priority (VMobile > Blue > Arrow) and SIM Activation Date (most recent first).
 
-### MDM Logic & Master Record Identification
+Deduplication: Iterated through sorted data to flag the first occurrence of a unique cellphone number as isMasterRecord = True.
 
-To identify the "Master Record" among duplicates, the following logic is applied:
+Duplicates Table: An all-encompassing table used for auditing every record received.
 
-1. **Sorting:** The combined data is sorted based on **Source Priority** (VMobile takes top priority) followed by **SIM Activation Date** (most recent activation takes priority).
-2. **Deduplication:** The script iterates through the sorted data and keeps the first occurrence of each unique cellphone number as the Master Record.
-3. **Flagging:** In the original combined DataFrame, an `isMasterRecord` boolean column is set to `False` by default. Using the index values from the deduplicated list, the specific master records are updated to `True`.
-4. **Final Loading:**
-    - **Duplicates Table:** Stores all records (Master and Non-Master) with a load timestamp for audit purposes.
-    - **No-Duplicates Table:** A SQL query filters the Duplicates table where `isMasterRecord = True` to create a clean table of unique customers.
+No-Duplicates Table: A high-fidelity table containing only unique Master Records, serving as the primary Dimension Table for the warehouse.
 
----
+3. Gold Layer: Aggregation & Business Insights
+The Gold layer implements a Star Schema designed for executive reporting and campaign evaluation.
 
-## 3. Usage Aggregation & Qualification (Gold Layer)
+Feature Engineering & SQL Aggregation
+Usage Aggregation: Utilized SQL Group By and Aggregate Functions (SUM, COUNT) to transform row-level usage events into weekly subscriber summaries.
 
-The final processing phase identifies subscribers who qualify for the "Free Minutes" campaign based on their spending behavior.
+Qualification Filter: Implemented logic to identify "Qualifying Subscribers" who generated a revenue of R30 or more within a specific reporting week.
 
-### Usage Processing
+Data Enrichment: Performed Inner Joins between the Usage data and the "No-Duplicates" Master table to bring in geographic regions and subscriber names.
 
-- **Revenue Normalization:** Revenue values are converted to numeric types, and `fillna(0)` is used to prevent calculation errors.
-- **Feature Engineering:** Boolean columns (`is_sms`, `is_voice`) are created to facilitate count-based aggregations.
-- **Weekly Windows:** Using Pandas, the script identifies the Monday (Start) and Sunday (End) for every usage record. These dates are essential for grouping data into weekly reporting windows.
+The Star Schema
+Fact Table: Qualifying_Subscriber_table (contains weekly revenue, call counts, and SMS volume).
 
-### Qualification Logic
+Dimension Tables: Combined_table_no_duplicates (contains unique subscriber metadata and regions).
 
-1. **Aggregation:** Data is grouped by cellphone number and reporting date to sum revenue and usage metrics.
-2. **Enrichment:** An inner join is performed with the "No-Duplicates" table to bring in the "Region" column and ensure only Master Records are processed.
-3. **Filtering:** A filter is applied to identify subscribers who generated **R30 or more** in revenue during a reporting week.
-4. **Final Insert:** To prevent errors with the `.to_sql()` method, specific columns and data types are explicitly defined before the final insertion into the `Qualifying_Subscriber_table`.
+4. Automated Reporting
+The pipeline concludes with an automated reporting engine using Python's XlsxWriter.
 
----
+Dynamic Pivot Tables: The data is structured to support Excel Pivot Tables, allowing the Marketing team to slice revenue by "Reporting Date" and "Region."
 
-## 4. Automated Excel Reporting
+User-Centric Design: Final headers are converted to uppercase and standardized for a clean, professional executive summary.
 
-The pipeline concludes by generating a professional report for the Marketing Department.
+Personal Lessons & Technical Insights
+Database Constraints & Idempotency
+Foreign Key Challenges: I encountered an error when trying to TRUNCATE the Master table because it was referenced by a Foreign Key in the Qualifying table.
 
-- **Excel Generation:** A SQL JOIN query retrieves qualifying records along with their associated names and regions.
-- **Visualization:** The report is structured to facilitate Pivot Tables in Excel. The data is organized by "Reporting Date" (Columns), "Subscriber Details" (Rows), and "Revenue" (Values).
-- **Header Formatting:** Column headers are converted to capital letters to ensure the report is presentable and user-friendly for non-technical stakeholders.
+The Solution: I implemented a "Drop and Recreate" strategy. This taught me the importance of Idempotency—ensuring that my ETL pipeline can be run repeatedly from scratch without failing due to existing data or constraints.
 
----
+Python-to-SQL Limitations
+.to_sql() Type Mapping: I learned that Pandas doesn't always automatically detect SQL types correctly. I had to explicitly define a dtype dictionary (specifying Date and Decimal types) to ensure the data was inserted into MySQL correctly.
 
-## Personal Lessons & Troubleshooting Insights
+Join Redundancy: When merging DataFrames in Python, I realized that Joins often create duplicate columns (like cellphone_number_x and _y). I had to implement a final column-selection step to ensure the DataFrame matched the MySQL table schema exactly before insertion.
 
-### Database Constraints & Idempotency
+Architectural Reflections
+Separation of Concerns: I realized I should have separated "Phone Cleaning" from "Date Cleaning." Combining them into one function made it difficult to reuse the phone-cleaning logic later in the pipeline without also triggering date processing.
 
-- **The Truncate Error:** I initially struggled with the `TRUNCATE` command on the "Combined" table. Because the `Qualifying_Subscriber_table` had a Foreign Key constraint referencing it, MySQL blocked the truncation to protect data integrity.
-- **The Solution:** I used AI to troubleshoot this, which led me to the "Drop and Recreate" strategy. This ensured that the table structure was fresh for every run while maintaining the necessary constraints. This taught me the importance of **Idempotency** in data pipelines—ensuring a script can be run multiple times without causing errors or duplicating data.
-
-### Technical Limitations of `.to_sql()`
-
-- **Type Mapping:** I discovered that Pandas' `.to_sql()` method doesn't always recognize pre-defined SQL data types. I had to explicitly define the `dtype` dictionary in the function to ensure Pandas correctly mapped types (like Dates and Decimals) during the insertion process.
-- **Joins and Inserts:** I learned that you cannot directly write a DataFrame containing a Join result back to a table if the column counts don't match perfectly. I had to manually specify the final column list to remove redundant join columns (like duplicate cellphone number columns).
-
-### Architectural Reflections
-
-- **Separation of Concerns:** In hindsight, I realized I should have separated the "Phone Cleaning" and "Date Cleaning" into two distinct functions. Later in the project, I needed to clean phone numbers independently, and having them combined in one function created unnecessary overhead.
-- **Database Normalization:** I noticed a slight redundancy in calculating the week-start and week-end dates twice (once for the DB and once for the Report). While I could have stored these in the database to reduce calculations, it would have required a more complex normalized schema to avoid repeating values in the Qualifying table.
-- **AI Collaboration:** I utilized AI effectively to map complex column dictionaries and to find specific Pandas methods for date-to-SQL conversions when standard formatting failed.
+Schema Normalization: I noticed I calculated week dates twice (for the DB and the report). While storing these in the database would reduce CPU cycles, it would have required a more complex normalized schema to maintain 3rd Normal Form.
