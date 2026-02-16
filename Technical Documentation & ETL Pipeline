@@ -37,6 +37,8 @@ No-Duplicates Table: A high-fidelity table containing only unique Master Records
 3. Gold Layer: Aggregation & Business Insights
 The Gold layer implements a Star Schema designed for executive reporting and campaign evaluation.
 
+It consists of physcial tables aswell, and not VIEWS. This is because physcial tables provide faster read times. However upon completion of the project, I realized that I should have gone with views since the use case was more ad-hoc related. Spped was not of the essence(only required at the end of every week. Views also have lower costs than physical table storage.
+
 Feature Engineering & SQL Aggregation
 Usage Aggregation: Utilized SQL Group By and Aggregate Functions (SUM, COUNT) to transform row-level usage events into weekly subscriber summaries.
 
