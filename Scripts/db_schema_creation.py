@@ -3,7 +3,7 @@ from sqlalchemy import INT, BOOLEAN, Table, Column, MetaData, ForeignKey,create_
 
 # Database connection variables
 db_user = 'root'
-db_password = 'Ethan200Gxi'
+db_password = 'xyz'
 db_host = 'localhost'
 db_port = 3306
 db_name = 'VMobile_DB'
